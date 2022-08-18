@@ -10,7 +10,7 @@ This is a streamlit app created by using ["A hotel's customers personal, behavio
 
 This app can be found [here.](https://kanishk-kumar-hotel-cust-cls-bookings-app-g21tc9.streamlitapp.com/)
 
-*Steps to run this program*
+*Steps to run this program:*
 
 ```
 pip install requirements.txt 
