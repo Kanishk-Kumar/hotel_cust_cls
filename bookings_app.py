@@ -18,7 +18,7 @@ st.write("Please fill in all the customer details to predict whether they would 
 st.sidebar.header('The Marker Hotel')
 
 image = Image.open('hotel.png')
-st.image(image, use_column_width=True, format='PNG')
+
 st.sidebar.image(image, use_column_width = 'always')
 
 values = ['Neural Net', 'LinearSVC', 'Random Forest']
