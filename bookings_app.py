@@ -11,8 +11,6 @@ model_net = tf.keras.models.load_model("model_net.h5")
 # ----------- General things
 st.set_page_config(layout="wide")
 st.header("Customer Hotel Checkin Prediction")
-#image = Image.open('hotel.png')
-#st.image(image, use_column_width=True,)#format='PNG')
 st.write("Please fill in all the customer details to predict whether they would check in or not.")
 
 # ----------- Sidebar
@@ -20,7 +18,7 @@ st.write("Please fill in all the customer details to predict whether they would 
 st.sidebar.header('The Marker Hotel')
 
 image = Image.open('hotel.png')
-#st.image(image, use_column_width=True, format='PNG')
+st.image(image, use_column_width=True, format='PNG')
 st.sidebar.image(image, use_column_width = 'always')
 
 values = ['Neural Net', 'LinearSVC', 'Random Forest']
