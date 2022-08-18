@@ -1,7 +1,5 @@
 streamlit
 pandas
-scikit-learn
 numpy
-pickle
 PIL
 tensorflow
