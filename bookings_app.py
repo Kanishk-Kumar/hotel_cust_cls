@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import scikit-learn
 import pickle
 from PIL import Image
 import tensorflow as tf
