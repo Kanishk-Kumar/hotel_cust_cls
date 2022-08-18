@@ -10,7 +10,7 @@ model_net = tf.keras.models.load_model("model_net.h5")
 
 # ----------- General things
 st.set_page_config(layout="wide")
-st.header("Customer Hotel Checkin Prediction")
+st.header("Customer Hotel Checkin Predictor")
 st.write("Please fill in all the customer details to predict whether they would check in or not.")
 
 # ----------- Sidebar
