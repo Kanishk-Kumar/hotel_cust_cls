@@ -7,8 +7,9 @@ This is a streamlit app created by using ["A hotel's customers personal, behavio
 
 * User is required to fill in all the details to get more than 99% accuracy.
 
-
 This app can be found [here.](https://kanishk-kumar-hotel-cust-cls-bookings-app-g21tc9.streamlitapp.com/)
+
+A Jupyter Notebook explaining the model building can be found [here.](https://github.com/Kanishk-Kumar/hotel_cust_cls/blob/main/bookings_notebook.ipynb)
 
 *Steps to run this program:*
 
