@@ -21,7 +21,7 @@ image = Image.open('hotel.png')
 
 st.sidebar.image(image, use_column_width = 'always')
 
-values = ['Neural Net', 'LinearSVC', 'Random Forest']
+values = ['Neural Net', 'LinearSVC', 'Decision Tree']
 default_ix = values.index('Neural Net')
 page = st.sidebar.selectbox('Prediction Method', values, index=default_ix)
 
@@ -232,7 +232,7 @@ elif page == "LinearSVC":
                 else:
                     st.success("**This customer will not check in.**")
 
-elif page == "Random Forest":
+elif page == "Decision Tree":
 
     with st.form(key='data', clear_on_submit=True):
         
