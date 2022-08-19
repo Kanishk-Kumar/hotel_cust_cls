@@ -28,7 +28,7 @@ page = st.sidebar.selectbox('Prediction Method', values, index=default_ix)
 st.sidebar.markdown("""---""")
 st.sidebar.write("Created by [Kanishk Kumar](https://www.linkedin.com/in/kanishk-kumar11/)")
 st.sidebar.write("Source code can be found [here.](https://github.com/Kanishk-Kumar/hotel_cust_cls)")
-st.sidebar.write("A Jupyter Notebook explaining the model building can be found [here.](https://drive.google.com/file/d/1Tkhge-RYWp0kzTRc0CJPj1Oaoo4zIb5y/view?usp=sharing)")
+st.sidebar.write("A Jupyter Notebook explaining the model building can be found [here.](https://github.com/Kanishk-Kumar/hotel_cust_cls/blob/main/bookings_notebook.ipynb)")
 
 
 if page == "Neural Net":
